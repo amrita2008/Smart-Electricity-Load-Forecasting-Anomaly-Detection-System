@@ -1,9 +1,6 @@
 # Smart-Electricity-Load-Forecasting-Anomaly-Detection-System
 🎯 Real-Life Problem:
-1.In hostels, PGs, apartments, labs, offices:
-2.Electricity consumption spikes unexpectedly
-3.Bills increase without clarity
-4.Faulty devices / misuse go unnoticed
+ In hostels, PGs, apartments, labs, offices electricity consumption spikes unexpectedly bills increase without clarity faulty devices / misuse go unnoticed.
 
 ✅ This System:
 1.Forecast future electricity load (next hour / next day)
