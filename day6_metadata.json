@@ -1,0 +1,14 @@
+{
+    "dataset": "Household Power Consumption",
+    "features": "Lag-based (1,2,3,7,14)",
+    "models": [
+        "Linear Regression",
+        "Random Forest",
+        "LSTM"
+    ],
+    "metric": [
+        "MAE",
+        "RMSE"
+    ],
+    "best_model": "LSTM"
+}
