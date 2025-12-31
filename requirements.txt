@@ -4,4 +4,6 @@ tensorflow==2.20.0
 scikit-learn
 joblib
 numpy
-
+streamlit
+requests
+matplotlib
