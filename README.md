@@ -8,3 +8,11 @@
 3.Explain anomalies
 4.Expose predictions via API
 
+
+## System Architecture
+- LSTM model trained on historical electricity load data
+- Model deployed using FastAPI
+- API hosted on Render
+- Streamlit dashboard for real-time prediction and visualization
+- Input validation, error handling, and API security implemented
+
