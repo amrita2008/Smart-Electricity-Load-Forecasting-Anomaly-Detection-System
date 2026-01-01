@@ -23,8 +23,11 @@ if st.button("Predict Next Day Load"):
         st.error("Please enter exactly 14 values.")
     else:
         payload = {"past_values": values}
+        headers = {
+            "x-api-key": "electricity-api-key"
+            }
         try:
-            response = requests.post(API_URL, json=payload)
+            response = requests.post(API_URL, json=payload, headers=headers)
             result = response.json()
             prediction = result["predicted_next_day_load"]
             st.success(f" Predicted Next-Day Load: **{prediction:.2f} kW**")
